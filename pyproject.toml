@@ -1,7 +1,16 @@
 [project]
 name = "calculator-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python calculator (basic + financial) for Introduction to Programming with Python"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
