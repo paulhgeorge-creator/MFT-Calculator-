@@ -1,5 +1,5 @@
-# MFT-Calculator-
-Python Calculator Project for Introduction to Programming with Python. 7/10/26
+# Progamming with Python
+Python Project for Introduction to Programming with Python.
 
 ## Layout
 ```
